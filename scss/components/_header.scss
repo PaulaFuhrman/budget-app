@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 0;
+    box-shadow: 0 5px 2px -2px var(--gray);
+
+    #logo {
+        margin-right: 10px;
+    }
+
+    .icon {
+        font-size: 20px;
+    }
+
+    .header__buttons {
+        display: flex;
+        align-items: center;
+
+        #add-transaction-btn {
+            display: none;
+        }
+
+        #switchTheme {
+            &.rotate {
+                transform: rotate(180deg);
+            }
+        }
+    }
+}

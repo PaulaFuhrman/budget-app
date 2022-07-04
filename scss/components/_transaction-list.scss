@@ -1,0 +1,76 @@
+.transaction-list {
+    display: flex;
+    flex-direction: column;
+    .table {
+        text-align: center;
+
+        thead {
+            background-color: var(--dark);
+            color: var(--light);
+
+            th {
+                font-size:12px;
+                padding: 5px 2px;
+
+                .sort-list {
+                    border: none;
+                    background-color: transparent;
+
+                    i {
+                        color: var(--light);
+                        transition: 0.3s;
+
+                        &:hover {
+                            color: var(--hover);
+                        }
+                    }
+                }
+            }
+        }
+
+        tbody {
+            td {
+                font-size:10px;
+                color: var(--dark);
+                padding: 5px 2px;
+
+                &.positive {
+                    font-weight: bold;
+                    color: var(--income);
+                }
+
+                &.negative {
+                    font-weight: bold;
+                    color: var(--expenses);
+                }
+
+                i {
+                    padding: 0 5px;
+                    cursor: pointer;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: var(--hover);
+                    }
+                }
+            }
+        }
+    }
+
+    .no-transactions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .no-transactions__img {
+            width: 20%;
+            margin-bottom: 10px;
+        }
+
+        .no-transactions__info{
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-size: 12px;
+        }
+    }
+}

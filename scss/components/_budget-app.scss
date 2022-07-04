@@ -1,0 +1,7 @@
+.budget-app {
+    width: 95vw;
+    &.hidden {
+        opacity: 0.1;
+        filter: blur(2px);
+    }
+}

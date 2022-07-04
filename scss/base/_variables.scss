@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap');
+
+:root {
+	--dark: black;
+	--light: rgba(255, 255, 255, 0.889);
+	--gray: rgb(64, 65, 65);
+	--hover: #154bc2;
+	--income: #69b261;
+	--expenses: #ef494c;
+	--font-poppins: 'Poppins', sans-serif;
+}
+
+.dark-mode {
+	--light: black;
+	--dark: white;
+}
+
+.light-mode {
+	--light: white;
+	--dark: black;
+}

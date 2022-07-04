@@ -1,0 +1,102 @@
+@media (min-width: 576px) {
+    .budget-app {
+
+        header {
+            .icon {
+                font-size: 25px;
+            }
+        }
+
+        .balance {
+            .balance__total {
+                h2 {
+                    font-size: 40px;
+                }
+
+                #balance-total {
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .balance__type {
+            .balance__group {
+                padding: 15px;
+                p,
+                span {
+                    font-size: 18px;
+                }
+                .balance__group--title {
+                   h3 {
+                    font-size: 20px;
+                   }
+                }
+            }
+        }
+
+        .search {
+            h4 {
+                font-size: 20px;
+            }
+        }
+
+        .transaction-list {
+            .table {
+                th {
+                    font-size: 16px;
+                }
+            }
+
+            tbody {
+                td {
+                    font-size: 16px;
+                }
+            }
+
+            .no-transactions {
+                .no-transactions__info {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .new-transaction {
+        .new-transaction__container {
+            padding: 20px;
+            width: 60%;
+
+            .new-transaction__close {
+                h5, #close {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    .setting {
+        .setting__container{
+            .setting__close {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .modal {
+        .modal-box {
+            width: 65%;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .budget-app {
+        width: 70vw;
+    }
+
+    .new-transaction {
+        .new-transaction__container {
+            width: 40%;
+        }
+    }
+}
